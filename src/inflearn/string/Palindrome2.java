@@ -41,8 +41,7 @@ public class Palindrome2 {
     public String solution(String str){
         str = str.toUpperCase().replaceAll("[^A-Z]",""); // replaceAll을 써야 정규식을 쓸 수 있다. ^가 ! 랑 같은 의
         String reverse = new StringBuilder(str).reverse().toString();
-        System.out.println(reverse);
-        if(str.equalsIgnoreCase(reverse)){
+        if(str.equals(reverse)){
             return "YES";
         }
         else{
