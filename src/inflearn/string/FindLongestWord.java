@@ -3,11 +3,11 @@ package inflearn.string;
 import java.util.Scanner;
 
 public class FindLongestWord {
-//    public static void main(String[] args) {
-//        Scanner kb = new Scanner(System.in);
-//        String str = kb.nextLine();
-//        System.out.println(solution2(str));
-//    }
+    public static void main(String[] args) {
+        Scanner kb = new Scanner(System.in);
+        String str = kb.nextLine();
+        System.out.println(solution2(str));
+    }
 
     public static String solution(String str) { // split 사용한 솔루션
 

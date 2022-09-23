@@ -15,8 +15,8 @@ public class FindChar {
         return answer;
     }
 
-  /*  public static void main(String[] args){
-        FindChar T = new FindChar;
+    public static void main(String[] args){
+        FindChar T = new FindChar();
 
         Scanner kb = new Scanner(System.in);
         String str = kb.next();
@@ -24,5 +24,5 @@ public class FindChar {
         char c = kb.next().charAt(0);
         System.out.println(T.solution(str,c));
 
-    }*/
+    }
 }
