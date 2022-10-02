@@ -17,7 +17,7 @@ public class Anagram {
         String s2 = kb.next();
 
         char[] a = s1.toCharArray();
-        char[] b = s1.toCharArray();
+        char[] b = s2.toCharArray();
 
         System.out.println(T.solution(a,b));
     }
