@@ -26,7 +26,7 @@ public class DeleteDuplicatedChar {
         DeleteDuplicatedChar T = new DeleteDuplicatedChar();
         Scanner kb = new Scanner(System.in);
         String input = kb.next();
-        System.out.println(T.deleteDuplicatedChar(input));
+        System.out.println(T.solution(input));
     }
 
     public String deleteDuplicatedChar(String input) {
@@ -48,7 +48,7 @@ public class DeleteDuplicatedChar {
     public String solution(String str){
         String res = "";
         for(int i=0;i<str.length();i++){
-            if(str.indexOf(str.charAt(i)) == str.charAt(i)){
+            if(str.indexOf(str.charAt(i)) == i){
                 res += str.charAt(i);
             }
         }
