@@ -1,4 +1,4 @@
-package BarkingDog.LinkedList.Stack;
+package BarkingDog.Stack;
 
 import java.util.*;
 
